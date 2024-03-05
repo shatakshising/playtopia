@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAYTOPIA-Rock-Paper-Scissor</title>
+</head>
+<body>
+    <h1>PLAYTOPIA</h1>
+    <h2>ROCK-PAPER-SCISSOR</h2>
+    
+    <b>Result:</b><span id="result"></span><br>
+    <b>Your Score:</b><span id="user_score">0</span><br>
+    <b>Computer Score:</b><span id="computer_score">0</span><br>
+    <b>Your Choice:</b><span id="user_choice"></span><br>
+    <b>Computer Choice:</b><span id="computer_choice"></span><br>
+    <button id="rock" onclick="checkResult('Rock')">Rock</button>
+    <button id="paper" onclick="checkResult('Paper')">Paper</button>
+    <button id="Scissor" onclick="checkResult('Scissors')">Scissor</button>
+
+    <br><br>
+    <button id="reset" onclick="reset()">Reset</button>
+    <button id="quit">Quit</button>
+    <script src="rps_script.js"></script>
+</body>
+</html>
